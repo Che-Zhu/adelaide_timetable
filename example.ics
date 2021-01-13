@@ -1,13 +1,16 @@
 BEGIN:VCALENDAR
+PRODID:-//TickTick//task 1.0//EN
 VERSION:2.0
-PRODID:-//Che-dev//timetable 1.0//EN
-CATEGORIES:E,D,U,C,A,T,I,O,N
-NAME:University of Adelaide Timetable
-X-WR-CALNAME:University of Adelaide Timetable
+CALSCALE:GREGORIAN
+X-WR-CALNAME:dida365.com
 BEGIN:VEVENT
-SUMMARY:titleSummary
-DTSTART;VALUE=DATE-TIME:20210113T003432
-DTSTAMP;VALUE=DATE-TIME:20210113T003432Z
-UID:usghuiaghrweoig
+DTSTAMP:20210110T140917Z
+DTSTART;VALUE=DATE:20201231
+SUMMARY:检查学校邮件
+UID:5f3a4bcb8f081c1abd2c0d81@calendar.dida365.com
+DESCRIPTION:https://www.adelaide.edu.au/covid-19/student-information/inte
+ rnational-student-return-pilot
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=1;BYDAY=TH
+SEQUENCE:-8682745
 END:VEVENT
 END:VCALENDAR
